@@ -1,9 +1,11 @@
-import Image from 'next/image'
+import { Welcome } from "@/components/Welcome/Welcome";
+import { AppShell, Burger, Group, Skeleton } from "@mantine/core";
 
 export default function Home() {
   return (
-    <div>
-      This is the new div that we need to experiment with.
-    </div>
-  )
+    <>
+      yess
+      <Welcome />
+    </>
+  );
 }
