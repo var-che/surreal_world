@@ -1,3 +1,5 @@
+"use client";
+
 import { Container, Text, Breadcrumbs, Anchor, SimpleGrid, Grid } from "@mantine/core";
 
 const LINKS = [
@@ -38,7 +40,7 @@ export default function NameDoesntMatter() {
       fw={500}
       style={{marginTop: 25}}
     >
-      Introduction is on this side, and we cannot do anything more about it. I need to make more of the typings but you will get what I want to make.
+      Introduction is on this side, and we cannot do anything more about it. I need to make more of the typings but you will get what I want to make. And on the agenda for today, we are going to query a table and see how it goes.
     </Text>
   </Container>;
 }
